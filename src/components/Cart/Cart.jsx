@@ -5,7 +5,7 @@ const Cart = ({ courseList, creditCount, totalPrice }) => {
     const maxCredit = 20;
 
     return (
-        <div className='bg-white rounded-xl p-3 mb-auto w-1/4'>
+        <div className='bg-white rounded-xl p-3 mb-auto lg:w-1/4 md:w-1/4'>
             <h2 className='border-b-2 text-[#2F80ED] text-xl font-bold pb-3'>Credit Hour Remaining {maxCredit-creditCount}hr</h2>
             <p className='text-xl font-bold pt-3 pb-3'>Course Name</p>
             <div className='pb-3'>

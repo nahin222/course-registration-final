@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { FiDollarSign } from "react-icons/fi";
 import { IoBookOutline } from "react-icons/io5";
+import { Toaster } from 'react-hot-toast';
 
 
 const Course = ({ course,handleSelect }) => {
@@ -20,6 +21,7 @@ const Course = ({ course,handleSelect }) => {
                 </div>
                 <div className=''>
                     <button className='bg-blue-500 w-11/12 mb-2 rounded-xl p-1 text-white' onClick={()=>handleSelect(course)}>Select</button>
+                    <Toaster></Toaster>
                 </div>
         </div>
     );
