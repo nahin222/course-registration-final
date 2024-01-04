@@ -13,11 +13,19 @@ function App() {
 
   const handleSelect=(course)=>{
     if(courseList.includes(course)){
-      toast('This course is already selected');
+      toast('This course is already selected',{
+        style: {
+          color: 'red',
+        }
+      })
     }
     else{
       if(creditCount+course.credit>20){
-        toast('Selecting this will exceed the credit limit');
+        toast('Selecting this will exceed the credit limit',{
+          style:{
+            color: 'blue',
+          }
+        });
       }
       else{
         setCourseList([...courseList,course])
