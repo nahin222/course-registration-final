@@ -8,11 +8,22 @@ function App() {
   const [creditCount, setCreditCount] = useState(0);
   const [courseList, setCourseList] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
+  const [flag,setFlag] = useState(0);
 
   const handleSelect=(course)=>{
-    setCourseList([...courseList,course]);
-    setCreditCount(creditCount+course.credit);
-    setTotalPrice(totalPrice+course.price);
+    if(courseList.includes(course)){
+      console.log('already exists'+flag);
+      setFlag(1);
+    }
+    else{
+      setCourseList([...courseList,course])
+      setCreditCount(creditCount+course.credit);
+      setTotalPrice(totalPrice+course.price);
+    }
+    
+    // setCourseList([...courseList,course])
+    // setCreditCount(creditCount+course.credit);
+    // setTotalPrice(totalPrice+course.price);
   }
 
   //importing courses data from json

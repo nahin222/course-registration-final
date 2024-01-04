@@ -5,7 +5,7 @@
       "course_name": "Introduction to C Programming",
       "course_description": "Learn the basics of C and start problem-solving.",
       "credit": 3,
-      "price": 49.99
+      "price": 50
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "course_name": "Introduction to OOP with C++",
       "course_description": "Learn the basics of object oriented programming using C++",
       "credit": 4,
-      "price": 69.99
+      "price": 70
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "course_name": "Object Oriented Programming with Python",
       "course_description": "Dive deeper into OOP along with Python",
       "credit": 4,
-      "price": 89.99
+      "price": 90
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "course_name": "Database management using MySQL",
       "course_description": "Learn the basics of storing data using DBMS with MySQL",
       "credit": 3,
-      "price": 49.99
+      "price": 50
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "course_name": "Getting started with Data Structures",
       "course_description": "Understand data structures and why they are used in a concise manner",
       "credit": 3,
-      "price": 49.99
+      "price": 50
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "course_name": "Diving into Algorithms",
       "course_description": "Learn what algorithms are and why they will shape our future",
       "credit": 4,
-      "price": 99.99
+      "price": 100
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "course_name": "Encryption and Cryptography ",
       "course_description": "Explore the fundamentals of encryption and cryptography to build a secure future",
       "credit": 4,
-      "price": 89.99
+      "price": 90
     },
     {
       "id": 8,
@@ -61,7 +61,7 @@
       "course_name": "Amazon Web Services",
       "course_description": "Master AWS to advance into next level programming",
       "credit": 3,
-      "price": 99.99
+      "price": 100
     },
     {
       "id": 9,
@@ -69,7 +69,7 @@
       "course_name": "Building towards the future with R&D",
       "course_description": "Learn to establish practices of research and development to compete with the modern market",
       "credit": 3,
-      "price": 99.99
+      "price": 100
     }
   ]
   
