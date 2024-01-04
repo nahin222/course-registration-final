@@ -20,7 +20,7 @@ const Course = ({ course,handleSelect }) => {
                     </div>
                 </div>
                 <div className=''>
-                    <button className='bg-blue-500 w-11/12 mb-2 rounded-xl p-1 text-white' onClick={()=>handleSelect(course)}>Select</button>
+                    <button className='bg-blue-500 w-11/12 mb-2 rounded-lg p-1 text-white' onClick={()=>handleSelect(course)}>Select</button>
                     <Toaster></Toaster>
                 </div>
         </div>
